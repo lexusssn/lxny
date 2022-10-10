@@ -7,12 +7,16 @@ snapchat_send_button = "images/send_snap.png"
 snapchat_new_snap_button = "images/new_snap_3.png"
 snapchat_reply = "images/reply_button_2.png"
 snapchat_back = "images/snap_go_back.png"
+the_chat = "images/chat_button.png"
 
 reply_button_x = 930
 reply_button_y = 870
 
 send_button_x = 1165
 send_button_y = 967
+
+chat_button_x = 700
+chat_button_y = 88
 
 replies = int(0)
 
@@ -28,16 +32,17 @@ def send_snap(loc):
 
 while keyboard.is_pressed('F') == False:
     find_go_back_button = pyautogui.locateOnScreen(snapchat_back, grayscale=False, confidence=0.9)
+    find_the_chat = pyautogui.locateOnScreen(the_chat, grayscale=False, confidence=0.9)
     find_snap = pyautogui.locateOnScreen(snapchat_send_button, grayscale=False, confidence=0.7)
     find_new_snap = pyautogui.locateOnScreen(snapchat_new_snap_button, grayscale=False, confidence=0.9)
     find_reply_button = pyautogui.locateOnScreen(snapchat_reply, grayscale=False, confidence=0.5)
 
     # print(find_snap, find_new_snap, find_reply_button)
-    
-    
     if find_go_back_button != None:
-        # This will check if its on a users chat and go off it
         pyautogui.click(find_go_back_button)
+        continue
+    elif find_the_chat != None:
+        pyautogui.click(chat_button_x, chat_button_y)
         continue
     elif find_snap != None:
         replies+=1
