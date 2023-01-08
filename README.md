@@ -7,7 +7,7 @@ This uses image recognition to find when a user has sent a snap and then will cl
 
 ## Authors
 
-- [@4b3j](https://www.github.com/4b3j)
+- [@Jirgap](https://www.github.com/jirgap)
 
 
 ## Features
@@ -22,7 +22,7 @@ This uses image recognition to find when a user has sent a snap and then will cl
 Clone the project
 
 ```bash
-  git clone https://github.com/4b3j/AutoSnapBot.git
+  git clone https://github.com/Jirgap/AutoSnapBot.git
 ```
 
 Go to the project directory
