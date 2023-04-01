@@ -48,4 +48,4 @@ Then open android emulator [Nox](https://www.bignox.com/) or [Bluestacks](https:
 
 ## Support
 
-Open an issue or join [Discord](https://discord.gg/QTRDDbdF7W) 
+Please open an issue if you are having trouble with this script, DO NOT message me on other platforms. Please use [Issues](https://github.com/Jirgap/AutoSnapBot/issues) to report anything
