@@ -7,7 +7,7 @@ This uses image recognition to find when a user has sent a snap and then will cl
 
 ## Authors
 
-- [@Jirgap](https://www.github.com/jirgap)
+- [@ClientlessX](https://www.github.com/clientlessx)
 
 
 ## Features
